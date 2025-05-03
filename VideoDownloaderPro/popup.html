@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <title>Video Downloader Pro</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Video Downloader Pro</h1>
+    
+    <div id="scanning">
+      <div class="loader"></div>
+      <p>Scanning page for videos...</p>
+    </div>
+    
+    <div id="no-videos" style="display: none;">
+      <p>No videos found on this page.</p>
+      <button id="rescan-btn">Scan Again</button>
+    </div>
+    
+    <div id="videos-container" style="display: none;">
+      <div class="videos-header">
+        <h2>Available Videos</h2>
+        <div class="refresh">
+          <button id="refresh-btn">Refresh</button>
+        </div>
+      </div>
+      
+      <div id="videos-list"></div>
+    </div>
+    
+    <div id="quality-selector" style="display: none;">
+      <h2>Select Quality</h2>
+      <div id="video-preview">
+        <div id="preview-thumbnail"></div>
+        <div id="preview-info"></div>
+      </div>
+      <div id="quality-options"></div>
+      <div class="buttons">
+        <button id="back-btn">Back</button>
+        <button id="download-btn">Download</button>
+      </div>
+    </div>
+    
+    <div id="download-status" style="display: none;">
+      <h2>Download Status</h2>
+      <div id="download-progress">
+        <div id="progress-bar">
+          <div id="progress"></div>
+        </div>
+        <div id="progress-text">0%</div>
+      </div>
+      <p id="download-message"></p>
+      <button id="done-btn">Done</button>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
