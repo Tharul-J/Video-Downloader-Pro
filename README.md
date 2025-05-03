@@ -1,6 +1,6 @@
-# 📥 Clip X – Web Video Downloader Extension
+# 📥 Video Downloader Pro – Web Video Downloader Extension
 
-**Clip X** is a lightweight browser extension designed to detect and download videos from various websites, offering users multiple quality options. It provides a clean and intuitive experience for downloading video content directly from the browser.
+**Video Downloader Pro** is a lightweight browser extension designed to detect and download videos from various websites, offering users multiple quality options. It provides a clean and intuitive experience for downloading video content directly from the browser.
 
 ![ChatGPT Image May 3, 2025, 08_51_24 AM](https://github.com/user-attachments/assets/fb6eef9d-1c4a-4091-b4c0-c9baec314b3d)
 
@@ -26,7 +26,7 @@
 ## 🛠️ How It Works
 
 1. The extension scans the current webpage for video content.
-2. If a video is found, the Clip X icon becomes active.
+2. If a video is found, the Video Downloader Pro icon becomes active.
 3. Clicking the icon opens a popup with available quality options.
 4. User selects a resolution and downloads the video.
 
