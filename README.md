@@ -2,7 +2,7 @@
 
 **Video Downloader Pro** is a lightweight browser extension designed to detect and download videos from various websites, offering users multiple quality options. It provides a clean and intuitive experience for downloading video content directly from the browser.
 
-![Video Downloader Pro](https://github.com/user-attachments/assets/dbd3cfd0-da68-4418-badf-bef0435ba7fb)
+![Video Downloader Pro1](https://github.com/user-attachments/assets/1a307b0a-a2d6-4b33-afd3-e1c1ca6c2a6d)
 
 ---
 
