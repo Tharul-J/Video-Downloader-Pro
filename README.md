@@ -2,6 +2,8 @@
 
 **Clip X** is a lightweight browser extension designed to detect and download videos from various websites, offering users multiple quality options. It provides a clean and intuitive experience for downloading video content directly from the browser.
 
+![ClipX](https://github.com/user-attachments/assets/b6a40a72-dbc8-4b79-ace7-a4580a014255)
+
 ---
 
 ## 🚀 Features
@@ -56,33 +58,6 @@ clip-x-extension/
 4. Click **Load unpacked** and select the `clip-x-extension` folder.
 
 ---
-
-## 📄 `manifest.json` Highlights
-
-```json
-{
-  "manifest_version": 3,
-  "name": "Clip X - Video Downloader",
-  "version": "1.0",
-  "description": "Download videos from any website with multiple quality options.",
-  "permissions": ["downloads", "scripting", "activeTab"],
-  "action": {
-    "default_popup": "popup.html",
-    "default_icon": "icons/clipx-icon.png"
-  },
-  "background": {
-    "service_worker": "background.js"
-  },
-  "content_scripts": [
-    {
-      "matches": ["<all_urls>"],
-      "js": ["content.js"]
-    }
-  ]
-}
-
-
------------
 
 🧠 Tech Stack
 Frontend: HTML, CSS, JavaScript
