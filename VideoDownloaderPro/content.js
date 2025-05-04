@@ -2,6 +2,7 @@
 
 // This script analyzes the page for videos and communicates with the popup
 (() => {
+  
   // Add console logging to help debug
   console.log('Video Downloader Pro: Content script loaded');
   
@@ -104,6 +105,7 @@
         });
       }
     }
+
     
     // Find DASH streams
     while ((match = dashRegex.exec(pageSource)) !== null) {
